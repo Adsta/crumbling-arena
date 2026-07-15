@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crumbling Island Arena</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="game"></canvas>
+
+<div id="select">
+  <h1>CRUMBLING ISLAND ARENA</h1>
+  <div class="sub">pick your hero</div>
+  <div id="cards"></div>
+  <div id="howto">
+    Right-click to move, Q W E casts toward your cursor.<br>
+    Kill 1pt, round win 2pts, first to 12.
+  </div>
+</div>
+
+<!-- urutan load penting, game.js paling akhir -->
+<script src="helpers.js"></script>
+<script src="sfx.js"></script>
+<script src="island.js"></script>
+<script src="fx.js"></script>
+<script src="combat.js"></script>
+<script src="heroes.js"></script>
+<script src="bots.js"></script>
+<script src="draw.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
